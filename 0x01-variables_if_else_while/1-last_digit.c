@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *
  * main - Prints random number to variable
  *
  * Return: Always (Successful)
