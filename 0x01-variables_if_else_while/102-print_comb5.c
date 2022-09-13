@@ -3,7 +3,7 @@
 /**
  * main - print possible combination of two 2-digit numbers
  *
- * Return: returns zero at the end 
+ * Return: returns zero at the end
  */
 int main(void)
 {
@@ -14,10 +14,8 @@ int main(void)
 
 		for (p = 0; p < 100; i++)
 		{
-
 			if (p > i)
 			{
-
 				putchar((i / 10) + '0');
 				putchar((i % 10) + '0');
 				putchar(' ');
@@ -25,7 +23,6 @@ int main(void)
 				putchar((p % 10) + '0');
 				if (i != 98)
 				{
-
 					putchar(',');
 					putchar(' ');
 				}
