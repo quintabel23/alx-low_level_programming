@@ -7,7 +7,7 @@
  *
  */
 
-int print_alphabet();
+int print_alphabet()
 {
 
 	char c;
