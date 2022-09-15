@@ -1,1 +1,1 @@
-This program prints the largest of three integers
+converts a date to the day of year and determines how many days are left in the year
