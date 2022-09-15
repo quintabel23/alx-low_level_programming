@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet - function to print abc
+ * print_alphabet - print the alphabet
  *
  * Return: 0
  *
  */
 
-print_alphabet(void)
+int print_alphabet(void)
 
 {
 
