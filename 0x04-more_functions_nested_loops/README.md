@@ -1,1 +1,1 @@
-a function that prints a triangle, followed by a new line
+ a program that finds and prints the largest prime factor of the number 
