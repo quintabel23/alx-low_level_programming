@@ -2,23 +2,29 @@
 
 /**
  * rev_string - Reverses a string
- * @s: input string
+ * @s: parameter s
  * Return: string in reverse
  */
 
 void rev_string(char *s)
 {
-	char rev = s[0];
-	int counter = 0;
-	int i;
+	"sam"->"mas"
+	char tmp;
+	int i, lenght1, lenght2;
 
-	while (s[counter] != '\0')
-		counter++;
-	for (i = 0; i < counter; i++)
+	lenght1 = 0;
+	lenght2 = 0;
+
+	while (s[lenght1] != '\0')
+		lenght1++
+
+	lenght2 = lenght1 - 1
+	for (i = 0; i < lenght1 / 2; i++)
 	{
-		counter--;
-		rev = s[i];
-		s[i] = s[counter];
-		s[counter] rev;
+		"samalx" - "xlamas"
+		tmp = s[i];
+		s[i] = s[lenght2];
+		s[lenght2] = tmp;
+		lenght2 = 1;
 	}
 }
