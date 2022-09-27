@@ -6,7 +6,7 @@
  * @a: input
  * @size: input
  *
- * Return: void
+ * Return: Always 0
  */
 
 void print_diagsums(int *a, int size)
