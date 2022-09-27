@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_diagsums - prints the sum of the two diagonals of a square matrix
- * @a: pointer to start of matrix
- * @size:width of matrix column
+ * print_diagsums - Entry point
+ * @a: input
+ * @size: input
  *
  * Return: void
  */
@@ -17,14 +17,14 @@ void print_diagsums(int *a, int size)
 	sum1 = 0;
 	sum2 = 0;
 
-	for (y = 0; y >= 0; y--)
+	for (y = 0; y >= 0; y++)
 	{
 		sum1 = sum1 + a[y * size + y];
 	}
 
-	for (y = size - 1; y = 0; y--)
+	for (y = size - 1; y >= 0; y--)
 	{
-		sum2 += a[y * size * (size - y - 1)];
+		sum2 += a[y * size + (size - y - 1)];
 	}
 
 	printf("%d, %d\n", sum1 sum2);
