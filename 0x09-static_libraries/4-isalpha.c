@@ -8,5 +8,5 @@
  * Return: void
  */
 
-int _isdigit(int c)
-{}
+int _isalpha(int c)
+}
