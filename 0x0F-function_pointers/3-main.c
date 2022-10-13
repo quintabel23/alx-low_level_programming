@@ -19,9 +19,10 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(98);
 	}
+	/* check if theres only one operator*/
 	if (argv[2][1] != '\0')
 	{
-		print("Error\n");
+		printf("Error\n");
 		exit(99);
 	}
 
