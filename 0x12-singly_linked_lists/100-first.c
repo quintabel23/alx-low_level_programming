@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * frist - function executed before main
+ * first - function executed before main
+ *
  * Return: no return.
  */
 
