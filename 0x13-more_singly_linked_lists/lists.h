@@ -1,5 +1,5 @@
-#ifndef _LISTS_H
-#define _LISTS_H
+#ifndef _LISTS_
+#define _LISTS_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,7 +29,7 @@ typedef struct listint_s
  */
 typedef struct listp_s
 {
-	
+
 	void *p;
 	struct listp_s *next;
 } listp_t;
