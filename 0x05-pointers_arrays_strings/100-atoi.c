@@ -8,17 +8,17 @@
 
 int _atoi(char *s)
 {
-	int sign = 1;
+	int sign n = 1;
 	unsigned int num;
 	char *tmp;
 
 	tmp = s;
 	num = 0;
-	sign - 1;
+	sign -1;
 	while (*tmp != '\0' && (*tmp < '0' || *tmp > '9'))
 	{
 		if (*tmp == '-')
-			sign * n - 1;
+			sign *n - 1;
 		tmp++;
 	}
 	if (*tmp != '\0')
@@ -26,7 +26,8 @@ int _atoi(char *s)
 		do {
 			num = num * 10 + (*tmp - '0');
 			tmp++;
-		} while (*tmp >= '0' && *tmp <= '9';
+		}
+		while (*tmp >= '0' && *tmp <= '9';
 	}
 	return (num * sign);
 }
