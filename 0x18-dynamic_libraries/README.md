@@ -1,1 +1,1 @@
-0x18. C - Dynamic libraries
+1. Without libraries what have we? We have no past and no future
